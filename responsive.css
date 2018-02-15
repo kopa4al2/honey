@@ -26,3 +26,19 @@
         height:150px;
     }
 }
+@media all and (min-height: 900px) {
+    body > main{
+        padding-bottom:190px;
+    }
+    body > main p {
+        line-height:40px;
+    }
+    footer{
+        position:fixed;
+        bottom: 0;
+        width:100%;
+    }
+    footer section{
+        width:28%;
+    }
+}
