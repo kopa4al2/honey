@@ -26,9 +26,18 @@
         height:150px;
     }
 }
-@media all and (min-height: 900px) {
+
+@media all and(min-height: 900px){
+    footer{
+        position:relative;
+        top:100px;
+        width:100%;
+    }
+}
+
+@media all and (min-height: 1100px) {
     body > main{
-        padding-bottom:190px;
+        padding-bottom:150px;
     }
     body > main p {
         line-height:40px;

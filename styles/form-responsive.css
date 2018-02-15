@@ -61,11 +61,13 @@
     label, .input-container{
         display:block;
     }
-    .input-container{
+    .input-container {
         position: relative;
-        top:20px;
-        margin:30px auto;
-        width:100%;0   .form-container input{
+        top: 20px;
+        margin: 30px auto;
+        width: 100%;
+    }
+    .form-container input{
         height:30px;
     }
     .form-container label{
