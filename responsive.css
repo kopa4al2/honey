@@ -13,3 +13,16 @@
         font-size:1.2rem;
     }
 }
+@media all and (max-width: 570px) {
+
+    main aside{
+        display:none;
+    }
+    .main-container{
+        width:100%;
+    }
+    .main-container img {
+        width:40%;
+        height:150px;
+    }
+}
