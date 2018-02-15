@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Lobster|Source+Sans+Pro');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 20px;
+    font-family: 'Inconsolata', sans-serif;
+}
+
+body > header {
+    background: linear-gradient(rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)),
+    url('images/article__3619d04e8e4bbf264e4baf00397cc9e9.jpg');
+    background-size: cover;
+    text-align: center;
+    color: #FFFFCC;
+    font-family: 'Source Code Pro', sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    padding: 20px 0 10px;
+    font-size: 1.8rem;
+}
+
+nav {
+    padding-bottom: 10px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px 15px;
+}
+
+nav li a {
+    padding: 10px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: #FFFFEE;
+    font-size: 1.5rem;
+    font-family: 'Lobster', sans-serif;
+}
+
+nav li a:hover {
+    background-color: rgba(255, 221, 122, 0.7);
+}
+
+body > main {
+    position:relative;
+    border: 10px solid #cc4242;
+    border-image-source: url('images/honeyFrame.jpg');
+    border-image-slice: 70;
+    border-image-repeat: round;
+    margin: 20px 10px 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.main-container, main > aside {
+    display: inline-block;
+}
+
+.main-container {
+    width: 60%;
+    text-align: justify;
+}
+
+.main-container h2 {
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.main-container h3 {
+    margin: -10px 0 20px;
+    font-family: 'Lobster', serif;
+    font-weight: normal;
+    font-size: 1rem;
+    text-align: center;
+}
+body > main aside {
+    position:absolute;
+    float: right;
+    right:20px;
+    height:90%;
+    width: 35%;
+    padding-bottom: 0;
+    border:3px solid lightblue;
+    box-shadow:3px 3px 10px #DDD;
+    text-align:justify;
+
+}
+body>main aside ul{
+    list-style:none;
+}
+body>main aside li{
+    padding:5px 10px;
+    margin:20px 0;
+}
+
+body>main aside li a{
+    font-family:'Lobster', sans-serif;
+    text-decoration:none;
+    color:#051525;
+    font-size:1.3rem;
+    padding:5px 10px;
+    border-radius:5px;
+}
+body>main aside li a::before{
+    content:"*       ";
+}
+
+body>main aside li a:hover{
+    background:#FFFFCC;
+}
+
+body > main img {
+    width:300px;
+    height:200px;
+    float:left;
+    margin:0 15px 10px 0;
+}
+
+footer {
+    background: linear-gradient(to right,
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.1)),
+    url('images/honey-bee-wallpaper-6-1050x788.jpg') no-repeat -150px -200px;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer section {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 35px;
+    padding-left: 10px;
+}
+
+footer li {
+    margin: 7px 0;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: wheat;
+    padding: 10px;
+}
+
+footer a:hover {
+    transition: font-size 1s, background-color 2s;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+footer span {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+}
+
+#social-container {
+    margin-top: 10px;
+}
+
+#facebook {
+    background: url(images/social.png) -529px 290px;
+}
+
+#facebook:hover {
+    background: url(images/social.png) -529px -133px;
+    cursor: pointer;
+}
+
+#youtube {
+    background: url('images/social.png') 571px -402px;
+}
+
+#youtube:hover {
+    background: url('images/social.png') 571px -133px;
+    cursor: pointer;
+}
+
+#google {
+    background: url('images/social.png') 821px -402px;
+}
+
+#google:hover {
+    background: url('images/social.png') 821px -825px;
+    cursor: pointer;
+}
