@@ -1,0 +1,91 @@
+@media all and (max-width:1000px) {
+    .form-container label{
+        font-size:1.2rem;
+    }
+    .input-container{
+        width: 45%;
+    }
+}
+
+@media all and (max-width:846px) {
+    .form-container label{
+        font-size:1rem;
+    }
+    form>div{
+        height:30px;
+    }
+    .form-container input, textarea{
+        /*height:35px;*/
+        width:75%;
+    }
+    textarea, input[type="text"], input[type="email"]{
+        font-size:1.1rem;
+        height:25px;
+    }
+    i{
+        padding-left:2px;
+    }
+    .fa-envelope{
+        width:10px;
+    }
+}
+
+@media all and (max-width:720px){
+    .input-container{
+        position: relative;
+        top:0;
+        margin:30px auto;
+        width:100%;
+    }
+}
+
+/*mobile L*/
+@media all and (max-width:425px) {
+    .form-container form>div{
+        height:76px;
+    }
+    /*3RD DIV NEEDED FOR CORRECT SPACING*/
+    form>div:nth-child(3){
+        height:50px;
+    }
+    form h2{
+        margin-bottom:-25px;
+    }
+    .form-container {
+        font-size:14px;
+    }
+    form>div{
+        height:20px;
+        margin:15px auto;
+    }
+    label, .input-container{
+        display:block;
+    }
+    .input-container{
+        position: relative;
+        top:20px;
+        margin:30px auto;
+        width:100%;0   .form-container input{
+        height:30px;
+    }
+    .form-container label{
+        top:50px;
+    }
+
+    #contact-submit{
+        padding:5px;
+    }
+}
+@media all and (max-width:360px){
+    /*3RD DIV NEEDED FOR CORRECT SPACING*/
+    form>div:nth-child(3){
+        height:75px;
+    }
+    #contact-submit{
+        padding:5px;
+    }
+    .input-container{
+    top:0;
+    }
+}
+}

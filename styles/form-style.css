@@ -1,0 +1,117 @@
+.form-container{
+    box-sizing: border-box;
+    height: 800px;
+    position:relative;
+    text-align:center;
+}
+.form-container > img{
+    margin:auto;
+    height:80%;
+    width:100%;
+    left:0;
+    text-align:center;
+    position:absolute;
+    z-index:-1;
+}
+form{
+    position:relative;
+    background:linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5));
+    margin:auto;
+    text-align:center;
+    z-index: 1;
+    border:10px solid;
+    border-right: none;
+    border-bottom: none;
+    border-radius:10px;
+    border-image-source: url('../images/borderflower.png');
+    border-image-slice: 13;
+    border-image-repeat: round;
+    box-shadow:3px 3px 10px #000;
+    box-sizing: border-box;
+    height:90%;
+    width:100%;
+}
+form h2{
+    text-transform:uppercase;
+    font-size:2.1rem;
+    margin:29px auto;
+}
+/*form-control container*/
+.form-container form > div{
+
+    position:relative;
+    text-align:left;
+    width:70%;
+    margin:10px auto;
+    height:60px;
+}
+.form-container label{
+    position:relative;
+    top:20px;
+    font-size:1.2rem;
+    font-weight:bolder;
+    margin:0;
+}
+.form-container input{
+    padding:0;
+    width:85%;
+    height:50px;
+}
+input, textarea{
+    margin-right:0;
+    border:none;
+    text-align:center;
+    font-size:1.4rem;
+    font-weight:bold;
+    color: #0379cc;
+}
+.input-container{
+    padding:0;
+    position:absolute;
+    top:0;
+    right:0;
+    display:inline-block;
+    border-radius:10px;
+    border:5px solid teal;
+    width:50%;
+    background:white;
+}
+.input-container i{
+    padding-left:5px;
+}
+.fa-comment{
+    position:absolute;
+    top:5px;
+}
+.input-container textarea{
+    width:100%;
+    padding-top:10px;
+    resize: none;
+}
+.form-container label{
+    font-size:1.3rem;
+}
+/*Button div*/
+#button-container :first-child{
+    width:100%;
+    top:125px;
+}
+#contact-submit{
+    text-align:center;
+    margin:auto;
+    width:100%;
+    height:100%;
+    font-size:1.4rem;
+    padding:30px 25px;
+    color:white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-radius:5px;
+    background-color:teal;
+    margin-right:50px;
+}
+#contact-submit:hover{
+    transition:background 2s;
+    cursor:pointer;
+    background:rgba(0,128,128,0.3);
+}
