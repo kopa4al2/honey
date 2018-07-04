@@ -5,11 +5,17 @@
     <meta name="viewport" content="width=device-width" />
     <title>Honey</title>
     <link rel="icon" href="images/favICON.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/responsive.css">
     <link rel="stylesheet" href="styles/form-style.css">
-    <link rel="stylesheet" href="styles/form-responsive.css">
+    <link rel="stylesheet" href="styles/recipes-style.css">
+    <link rel="stylesheet" href="styles/product-style.css">
+    <link rel="stylesheet" href="styles/about-us-style.css">
+    <link rel="stylesheet" href="styles/contact-us-style.css">
+    <!--RESPONSIVE-->
+    <link rel="stylesheet" href="styles/responsive/responsive.css">
+    <link rel="stylesheet" href="styles/responsive/product-responsive.css">
 </head>
 <body>
 <header>
@@ -17,56 +23,51 @@
     <nav>
         <ul>
             <li><a id="home" href="index.html">Начало</a></li>
+            <li><a id="products" href="#">Продукти</a></li>
             <li><a id="recipes" href="#">Рецепти с мед</a></li>
-            <li><a id="more-on-honey" href="#">За меда</a></li>
-            <li><a id="contact-us" href="#">Обратна връзка</a></li>
+            <li><a id="contact-us" href="#">За контакти</a></li>
             <li><a id="about-us" href="#">За нас</a></li>
         </ul>
     </nav>
 </header>
 <main>
-    <div class="container main-container">
+    <div class="main-container">
         <h2>Пчелен мед</h2>
         <h3>директно от кошера</h3>
         <img src="images/Fresh-Honey-Ointment1.jpg" alt="freshhoney">
         <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
-            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
-            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
-            Aldus PageMaker including versions of Lorem Ipsum.
+            Историята, легендите и митологията, свързани с пчелите и пчелните продукти, като цяло са толкова големи, че могат да запълнят много томове книги. Единствената друга храна, която се доближава до медните продукти като богатство от история и легенди, е какаото. Даровете, които предлага пчелинът са удивителни – те представляват множество универсални храни и лекарства. Високата им ефективност при лечение и превенция на различни болести е призната по целия свят от дълбока древност.
         </p>
     </div>
 
-    <aside>
-        <ul>
-            <li><a href="">Най новите постове</a></li>
-            <li><a href="">Или най новите оферти от магазина</a></li>
-            <li><a href="">Или най нови рецепти</a></li>
-            <li><a href="">Ала бала</a></li>
-        </ul>
-    </aside>
+    <!--<aside>-->
+        <!--<ul>-->
+            <!--<li><a href="">Най новите постове</a></li>-->
+            <!--<li><a href="">Или най новите оферти от магазина</a></li>-->
+            <!--<li><a href="">Или най нови рецепти</a></li>-->
+            <!--<li><a href="">Ала бала</a></li>-->
+        <!--</ul>-->
+    <!--</aside>-->
 </main>
-<footer>
-    <section id="footer-left">
-        <h2>За нас</h2>
+<footer class="container-full">
+    <section class="col-xl-6 col-lg-6 col-md-6 col-sm-12" id="footer-left">
+        <h2>Контакти</h2>
         <address>
-            <ul id="address-list">
-                <li>Телефон:0899999999</li>
-                <li>Адрес:Някъде</li>
-                <li>Име на фирмата:МедООД</li>
+            <ul id="аddress-list">
+                <li><a>Телефон: 0885033778</a></li>
+                <li><a>Email: medopad@gmail.bg</a></li>
             </ul>
         </address>
     </section>
-    <section id="footer-middle">
+  <!--  <section class="col-xl-3 col-lg-3 col-md-1 col-sm-1" id="footer-middle">
         <h2>Допълнителна информация</h2>
         <ul id="info-list">
             <li><a href="https://bg.wikipedia.org/wiki/%D0%9F%D1%87%D0%B5%D0%BB%D0%B5%D0%BD_%D0%BC%D0%B5%D0%B4">Wikipedia</a></li>
             <li><a href="https://www.google.bg/search?source=hp&ei=uY2FWtjTJNDYwAKJhbXoBw&q=%D0%BF%D1%87%D0%B5%D0%BB%D0%B5%D0%BD+%D0%BC%D0%B5%D0%B4&oq=%D0%BF%D1%87%D0%B5%D0%BB%D0%B5%D0%BD+%D0%BC%D0%B5%D0%B4&gs_l=psy-ab.3..0l10.2798.7039.0.7142.24.17.3.3.3.0.226.1848.1j9j2.12.0....0...1c.1.64.psy-ab..8.16.1496...0i131k1j0i10k1.0.1CiRx-FlPHs">Google</a></li>
         </ul>
     </section>
-    <section id="footer-right">
+    -->
+    <section class="col-xl-4 col-lg-4 col-md-4 col-sm-12" id="footer-right">
         <h2>Социални мрежи</h2>
         <div id="social-container">
             <span id="facebook"></span>
@@ -77,5 +78,10 @@
 </footer>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="script.js"></script>
+<script src="scripts/libs/clamp.min.js"></script>
+<script src="scripts/libs/jquery-plugin-copycss.js"></script>
+<script src="scripts/XmlParser.js"></script>
+<script src="scripts/script.js"></script>
+<script src="scripts/RecipesRenderer.js"></script>
+<script src="scripts/ProductsRenderer.js"></script>
 </html>

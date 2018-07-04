@@ -1,0 +1,97 @@
+@media only screen and (max-device-width: 500px) {
+
+    .product-expand p {
+        font-size: 0.7rem;
+        line-height: 1;
+    }
+}
+/*low resolution*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+
+    #product-container{
+        text-align:center;
+    }
+    #product-container .product {
+        width:100%;
+    }
+    .product-expand p {
+        font-size:0.9rem;
+        line-height: 1;
+    }
+
+
+}
+
+@media only screen and (min-device-width: 620px) and (max-device-width: 1024px) {
+    .product-expand {
+        height: 600px;
+    }
+
+    #product-container .product {
+        width: 48%;
+    }
+
+    .product-expand p {
+        font-size: 1rem;
+        line-height: 1;
+
+    }
+}
+
+/*mid resolution*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+    #product-container .product {
+        width:48%;
+    }
+    .product-expand p {
+        font-size:1.1rem;
+        line-height: 1;
+    }
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1024px) and (max-width : 1224px) {
+
+    .product-expand p {
+        font-size:1.4rem;
+        line-height: 1;
+    }
+
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+
+    .product p {
+        font-size:1.3rem;
+        line-height:1;
+    }
+
+    .product img {
+        width:70%;
+        height:150px;
+    }
+
+    .product-expand p {
+        font-size:1.7rem;
+        line-height: 1.4;
+    }
+
+    .product-expand img {
+        width:auto;
+    }
+
+    .product-expand a, product a{
+        font-size:1.4rem;
+    }
+
+    #recipe-container .recipe-title-link {
+        font-size:2.7rem;
+    }
+    #recipe-container p {
+        font-size:2.2rem;
+    }
+}
+

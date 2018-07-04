@@ -1,0 +1,24 @@
+#contacts-container{
+    box-shadow: 1px 1px 5px 2px black;
+    padding: 30px;
+}
+#contacts-container hr {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    height:0;
+    border:none;
+    box-shadow: 0 0 6px 1px teal;
+}
+#contacts-container div {
+    text-decoration:underline;
+    text-decoration-color: teal;
+    text-decoration-skip: edges;
+}
+.phone, .email{
+    font-weight:bold;
+    font-style: italic;
+}
+.phone:hover, .email:hover{
+    cursor:pointer;
+    color:teal;
+}

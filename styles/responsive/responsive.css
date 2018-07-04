@@ -1,0 +1,56 @@
+@media all and (max-width: 570px) {
+
+    main aside{
+        display:none;
+    }
+    .main-container{
+        width:100%;
+    }
+    .main-container img {
+        width:40%;
+        height:150px;
+    }
+}
+
+@media all and (max-width: 820px) {
+
+
+    h1{
+        font-size:1.5rem;
+    }
+    nav ul li{
+        display:block;
+        padding-top:10px;
+    }
+    nav ul li a{
+        font-size:1.2rem;
+    }
+    main{
+        font-size:1.2rem;
+    }
+}
+
+@media all and(min-height: 900px){
+    footer{
+        position:relative;
+        top:100px;
+        width:100%;
+    }
+}
+
+@media all and (min-height: 1100px) {
+    body > main{
+        padding-bottom:150px;
+    }
+    body > main p {
+        line-height:40px;
+    }
+    footer{
+        position:fixed;
+        bottom: 0;
+        width:100%;
+    }
+    footer section{
+        width:28%;
+    }
+}
