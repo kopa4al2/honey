@@ -1,7 +1,5 @@
 <recipe>
-    <id>
-        id1
-    </id>
+	<id>id1</id>
 	<title>
 		Заглавие
 		Пчелен мед от производител
@@ -41,7 +39,7 @@
 	</content>
 </recipe>
 <recipe>
-    <id>id2</id>
+    	<id>id2</id>
 	<title>
 	Заглавие
 	Рецепти
@@ -111,9 +109,7 @@
 		</content>
 </recipe>
 <recipe>
-    <id>
-        1
-    </id>
+	<id>id3</id>
 	<title>
 	Заглавие
 	За нас
