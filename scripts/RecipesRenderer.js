@@ -16,9 +16,9 @@ function renderRecipes() {
                 .css("display", "none")
                 .append(recipe.content))
             .appendTo(container)
-            .click(() => {
-            let recipeContentContainer = `#${id}`;
-
+            .click((v) => {
+                console.log(v.target);
+            let recipeContentContainer = `#${id} > .recipe-content-container`;
                 if (($(recipeContentContainer).hasClass('hidden'))){
                     $(recipeContentContainer).addClass('shown');
                     $(recipeContentContainer).removeClass('hidden');
